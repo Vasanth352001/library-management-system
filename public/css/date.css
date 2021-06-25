@@ -1,0 +1,19 @@
+body
+{
+background:white;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: sans-serif; 
+}
+
+
+.top
+{
+	height: 50px;
+	width:100%;
+	background:#063146;
+}
+
+.top ul{
+	
+}

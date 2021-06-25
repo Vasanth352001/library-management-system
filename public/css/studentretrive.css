@@ -1,0 +1,43 @@
+body{
+            background-color: black;
+        }
+        .input{
+            height: 50px;
+            padding: 8px 15px 8px 15px;
+            margin-bottom: 50px;
+
+        }
+
+        .input .retrive{
+            margin-top: 30px; 
+        }
+
+        select{
+            width: 200px;
+            height: 35px;
+            margin-left: 200px;
+            background-color: white;
+        }
+
+        .input input[type="submit"]
+        {
+            width: 200px;
+            height: 35px;
+            margin-left: 46%;
+            margin-top: 50px;
+        }
+        
+        .retrive tr,th{
+            width: 1100px;
+            height: 30px;
+            border: 2px solid yellow;
+            background-color: white;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .home input[type="submit"]
+        {
+            margin-top: 20px;
+            width: 150px;
+            height: 30px;
+        }

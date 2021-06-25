@@ -1,0 +1,390 @@
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+}
+.side
+{
+	position:fixed;
+	left:0;
+	width:250px;
+	height:100%;
+	opacity: 0.6;
+}
+
+.side header
+{
+	font-size:22px;
+	color:white;
+	text-align:center;
+	line-height:70px;
+	user-select: none;
+}
+
+.side input[type="submit"]
+{
+	background:black;
+	width:250px;
+	height:70px;
+	border-radius: 5px;
+	color:white;
+	font-size:20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.side input[type="submit"]:hover
+{
+	background:red;
+}
+
+
+.top
+{
+    width:100%;
+    height: 70px;
+    background:black;
+    opacity:0.6;
+}
+
+
+.viewstudent
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.viewstudent_content
+{
+	height:150px;
+	width: 600px;
+	background:white;
+	padding:20px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.viewstudent .viewstudent_content img
+{
+	position: absolute;
+	width:30px;
+    height:30px;
+    border-radius:100%;
+    position:absolute;
+    margin-top: -30px;
+    left:calc(100% - 20px);
+    background:#fff;
+    cursor: pointer;
+}
+
+.viewstudent .viewstudent_content input[type=submit]{
+	width:140px;
+	height:40px;
+	color:black;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+
+
+
+.viewbook
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.viewbook_content
+{
+	height:150px;
+	width: 600px;
+	background:white;
+	padding:20px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.viewbook .viewbook_content img
+{
+	position: absolute;
+	width:30px;
+    height:30px;
+    border-radius:100%;
+    position:absolute;
+    margin-top: -30px;
+    left:calc(100% - 20px);
+    background:#fff;
+    cursor: pointer;
+}
+
+.viewbook .viewbook_content input[type=submit]{
+	width:140px;
+	height:40px;
+	color:black;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.issret
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.issret_content
+{
+	height:150px;
+	width: 550px;
+	background:white;
+	padding:20px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.issret .issret_content img
+{
+	position: absolute;
+	width:30px;
+    height:30px;
+    border-radius:100%;
+    position:absolute;
+    margin-top: -30px;
+    left:calc(100% - 20px);
+    background:#fff;
+    cursor: pointer;
+}
+
+.issret .issret_content p{
+	color:black;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.issret .issret_content input[type=submit]{
+	width:150px;
+	height:40px;
+	color:black;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.issret .issret_content input[type=submit]:hover{
+	border-color: yellow;
+	background-color: green;
+}
+
+
+
+
+
+.viewisshis
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.viewisshis_content
+{
+	height:450px;
+	width: 900px;
+	background:white;
+	padding:20px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.viewisshis .viewisshis_content img
+{
+	position: absolute;
+	width:30px;
+    height:30px;
+    border-radius:100%;
+    position:absolute;
+    margin-top: -30px;
+    left:calc(100% - 20px);
+    background:#fff;
+    cursor: pointer;
+}
+
+.viewisshis .viewisshis_content input[type=datetime-local]{
+	width:200px;
+	height: 50px;
+	font-size: 20px;
+	color:black;
+	margin-left: 130px;
+	margin-top: 150px;
+}
+
+.viewisshis .viewisshis_content input[type=datetime-local]:hover{
+	background-color: red;
+}
+
+.viewisshis .viewisshis_content input[type=submit]{
+	width:150px;
+	height:50px;
+	margin-left: 320px;
+	margin-top: 100px;
+	font-size: 20px;
+	background-color: yellow;
+}
+
+.viewisshis .viewisshis_content input[type=submit]:hover{
+	background-color: green;
+}
+
+
+
+.viewlogout
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.viewlogout_content
+{
+	height:150px;
+	width: 400px;
+	background:white;
+	padding:20px;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.viewlogout .viewlogout_content img
+{
+	position: absolute;
+	width:30px;
+    height:30px;
+    border-radius:100%;
+    position:absolute;
+    margin-top: -30px;
+    left:calc(100% - 20px);
+    background:#fff;
+    cursor: pointer;
+}
+
+.viewlogout .viewlogout_content p{
+	color:black;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.viewlogout .viewlogout_content input[type=submit]{
+	width:100px;
+	height:40px;
+	color:black;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+}
+
+.viewlogout .viewlogout_content input[type=submit]:hover{
+	border-color: yellow;
+	background-color: green;
+}
+
+
+
+
+select
+{
+	width:75%;
+	height: 40px;
+	margin-top: 20px ;
+	margin-left: 50px;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box; 
+	text-align: center;
+}
+
+select:hover
+{
+	background-color: green;
+	color:yellow;
+}
+
+.login input[type=submit]{
+	width:100%;
+	height: 40px;
+	margin:0px auto;
+	margin-top: 25px;
+	background-color: white;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	text-transform: none;
+	border-radius: 8px;
+}
+
+.login input[type=submit]:hover{
+	  background-color: yellow;
+	  color:black;
+}

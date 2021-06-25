@@ -1,0 +1,71 @@
+body{
+            background-color: black;
+        }
+        .input{
+            height: 50px;
+            padding: 8px 15px 8px 15px;
+            margin-bottom: 50px;
+
+        }
+        .input input[type=datetime-local]
+        {
+         width:200px;
+         height: 50px;
+         font-size: 20px;
+         color:black;
+         margin-left: 330px;
+         margin-top: -50px;
+        }
+
+         .input input[type=datetime-local]:hover
+         {
+          background-color: red;
+         } 
+
+        .input .retrive{
+            margin-top: 30px; 
+        }
+
+        .input select{
+            width: 200px;
+            height: 35px;
+            margin-left: 200px;
+        }
+
+        .input input[type="submit"]
+        {
+            width: 200px;
+            height: 35px;
+            margin-left: 30%;
+            margin-top: 30px;
+        }
+
+        
+        .retrive table tr,th{
+            width: 1100px;
+            height: 30px;
+            border: 2px solid yellow;
+            background-color: white;
+            text-align: center;
+        }
+
+        .home input[type="submit"]
+        {
+            margin-top: 20px;
+            width: 150px;
+            height: 30px;
+        }
+
+        .input input[type="submit"]{
+            width:200px;
+            margin-left: 600px;
+            font-size: 18px;
+            border-color: red;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .input input[type="submit"]:hover
+        {
+            background-color: yellow;
+        }
